@@ -20,15 +20,11 @@ Leitura dos arquivos CSV brutos disponibilizados no case.
 ## 2. Padronização
 Tratamento de inconsistências textuais:
 - nomes de bancos
-- produtos
-- localidades
 
 Exemplo:
 - Hydra
 - HIDRA
-- hydra
-
-→ Hidra
+- Banco S.H.I.E.L.D
 
 ## 3. Qualidade dos dados
 Aplicação de validações para:
@@ -50,7 +46,7 @@ O projeto priorizou confiabilidade analítica antes da construção visual do da
 
 Foram identificados riscos relevantes:
 - inconsistência de nomenclaturas
-- possíveis duplicidades
+- duplicidades
 - produtos com volume relevante e valor zerado
 - divergência entre chaves e entidades
 
@@ -58,9 +54,9 @@ A proposta foi estruturar controles automáticos para impedir que inconsistênci
 
 ---
 
-# Dashboard Executivo
+# Dashboard
 
-O dashboard foi desenvolvido em Power BI com foco executivo.
+O dashboard foi desenvolvido em Power BI.
 
 ## Indicadores principais
 - Market Share
